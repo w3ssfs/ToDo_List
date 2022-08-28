@@ -32,7 +32,7 @@
                 </button>
             </div>
         </form>
-        <form id="edit-form">
+        <form id="edit-form" class="hide">
             <p>Edite sua tarefa:</p>
             <div class="form-control">
                 <input type="text" id="edit-input">
@@ -48,21 +48,22 @@
                 <form>
                     <input type="text" id="search-input" placeholder="Buscar">
                     <button id="erase-button">
-                         <i class="fa-solid fa-delete-left"></i>
+                        <i class="fa-solid fa-delete-left"></i>
                     </button>
                 </form>
             </div>
+            <div id="filter">
+                <h4>Filtrar:</h4>
+                <select id="filter-select">
+                    <option value="all">Todos</option>
+                    <option value="done">Feitos</option>
+                    <option value="todo">A fazer</option>
+                </select>
+            </div>
         </div>
-        <div id="filter">
-            <h4>Filtrar:</h4>
-            <select id="filter-select">
-                <option value="all">Todos</option>
-                <option value="done">Feitos</option>
-                <option value="todo">A fazer</option>
-            </select>
-        </div>
+        
         <div id="todo-list">
-            <div class="todo">
+            <div class="todo done">
                 <h3>estou fazendo algo</h3>
                 <button class="finish-todo">
                     <i class="fa-solid fa-check"></i>
@@ -86,7 +87,7 @@
                     <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
-            
+
         </div>
 
     </div>
