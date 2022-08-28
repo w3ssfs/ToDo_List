@@ -1,0 +1,34 @@
+/* Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/assets/image/image.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+button {
+    background-color: #fdfdfd;
+    color: purple;
+    border: 2px solid purple;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: rgba(214, 79, 214, 0.613);
+}
+
