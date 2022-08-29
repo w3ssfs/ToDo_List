@@ -66,7 +66,7 @@ select {
 .todo-container header {
     text-align: center;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(156, 74, 121);
 }
 
 
@@ -75,7 +75,7 @@ select {
 #todo-form,
 #edit-form {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(156, 74, 121);
 }
 
 #todo-form p,
@@ -100,7 +100,7 @@ select {
 
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(156, 74, 121);
     display: flex;
 
 }
@@ -110,7 +110,7 @@ select {
 }
 
 #search {
-    border-right: 1px solid #ddd;
+    border-right: 1px solid rgb(156, 74, 121);
     padding-right: 1rem;
     margin-right: 1rem;
     width: 65%;
@@ -145,7 +145,7 @@ select {
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(156, 74, 121);
     transition: .3s;
 }
 
@@ -160,7 +160,7 @@ select {
 }
 
 .done {
-    background-color: #0c7843;
+    background-color: #9b6ca097;
 }
 
 .done h3 {
