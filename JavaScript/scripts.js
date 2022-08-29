@@ -16,9 +16,9 @@ todoform.addEventListener("submit", (e) => {
 
     e.preventDefault()
 
-    const inputValue = todoinput.value
+    const inputValue = todoinput.value 
 
-    if (inputValue) {
+    if(inputValue){
         console.log(inputValue)
         // Save ToDo
     }
