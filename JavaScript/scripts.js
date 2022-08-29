@@ -103,7 +103,7 @@ document.addEventListener("click", (e) => {
 cancelEditBtn.addEventListener("click", (e) => {
     e.preventDefault()
 
-    toggleForms();
+toggleForms();
 });
 
 editform.addEventListener("submit", (e) => {
@@ -119,4 +119,14 @@ editform.addEventListener("submit", (e) => {
     toggleForms();
 
 });
+
+
+    const inputValue = todoinput.value
+
+    if (inputValue) {
+        console.log(inputValue)
+        // Save ToDo
+    }
+
+})
 

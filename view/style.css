@@ -9,9 +9,11 @@
 }
 
 body {
-    background-image: url(/assets/image/image.jpg);
+    background-image: url(/assets/image/image.png);
     background-position: center;
+
     background-size:cover;
+
 
 }
 
